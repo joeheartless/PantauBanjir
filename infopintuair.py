@@ -45,11 +45,11 @@ try:
                     status = ""
                     if lokasi == "Bendung Katulampa (Hulu)":
                         if tinggi_air_cm >= 200:
-                            status = "\n🚨 KATULAMPA SIAGA 1 🚨\n"
+                            status = "\nKATULAMPA SIAGA 1\n"
                         elif 150 <= tinggi_air_cm < 200:
-                            status = "\n⚠️ KATULAMPA SIAGA 2 ⚠️\n"
+                            status = "\nKATULAMPA SIAGA 2\n"
                         elif 80 <= tinggi_air_cm < 150:
-                            status = "\n🔸 KATULAMPA SIAGA 3 🔸\n"
+                            status = "\nKATULAMPA SIAGA 3\n"
                         else:
                             status = ""
 
