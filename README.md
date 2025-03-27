@@ -20,7 +20,7 @@
 - Cocok untuk analisis historis dan visualisasi data
 
 ### Fitur Pendukung
-- Anti-spam: hanya kirim notifikasi saat tinggi air katulampa SIAGA 1 ( >= 80 cm )
+- Anti-spam: hanya kirim notifikasi setiap 10 menit saat tinggi air katulampa SIAGA 3 keatas ( >= 80 cm )
 - Cek status `SIAGA 1`, `SIAGA 2`, `SIAGA 3` berdasarkan tinggi air
 - Friendly untuk cronjob atau dijalankan terus-menerus di server
 
